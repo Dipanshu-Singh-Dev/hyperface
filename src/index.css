@@ -2,6 +2,7 @@
 :root {
   font-family: 'Sen',sans-serif;
   background-color:#101010;
+  user-select: none;
 }
 *,*::before,*::after {
   box-sizing: border-box;
