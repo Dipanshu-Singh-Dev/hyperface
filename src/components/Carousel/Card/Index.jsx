@@ -6,9 +6,7 @@ const Index = () => {
       <div className={styles.image}></div>
       <div>
         <p className={styles.name}>Fundamentals of Product Design</p>
-        <p className={styles.details}>
-          8 Chapters <span id={styles.dot}>.</span> 2 Hours
-        </p>
+        <p className={styles.details}>8 Chapters · 2 Hours</p>
       </div>
     </div>
   );
