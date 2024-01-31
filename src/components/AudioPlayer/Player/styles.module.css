@@ -14,7 +14,6 @@
     width: 100%;
     margin-top: 10px;
     & input{
-        margin: auto;
         width: 100%;
     }
 }
