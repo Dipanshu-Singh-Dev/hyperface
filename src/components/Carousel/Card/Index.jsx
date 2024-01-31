@@ -7,7 +7,11 @@ const Index = () => {
 navigate('/player'); 
   }
   return (
-    <div onClick={handleClick} className={styles.card}>
+    <div
+      style={{ cursor: "pointer" }}
+      onClick={handleClick}
+      className={styles.card}
+    >
       <div className={styles.image}></div>
       <div>
         <p className={styles.name}>Fundamentals of Product Design</p>

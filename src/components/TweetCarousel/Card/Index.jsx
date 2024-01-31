@@ -6,7 +6,11 @@ const Index = () => {
   navigate('/player'); 
   }
   return (
-    <div onClick={handleClick} className={styles.card}>
+    <div
+      style={{ cursor: "pointer" }}
+      onClick={handleClick}
+      className={styles.card}
+    >
       <div className={styles.image}>
         <img src="profile.png" alt="profile" />
       </div>

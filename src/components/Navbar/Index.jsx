@@ -8,6 +8,7 @@ const Index = () => {
       <div id={styles.nav}>
         <svg
         onClick={() => navigate('/')}
+        style={{ cursor: "pointer" }}
           height={32}
           width={32}
           viewBox="0 0 1024 1024"
