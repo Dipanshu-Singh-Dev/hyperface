@@ -43,15 +43,12 @@ const AudioPlayer = () => {
       </audio>
 
       <div id={styles.progressBar}>
-        <input
-          type="range"
-          min="0"
-          readOnly
-          max="42"
-          value={currentTime}
-        />
+        <input type="range" min="0" readOnly max="42" value={currentTime} />
       </div>
-
+      <div id={styles.time}>
+        <p>00:00</p>
+        <p>00:42</p>
+      </div>
       <div id={styles.controls}>
         <svg
           width="32"

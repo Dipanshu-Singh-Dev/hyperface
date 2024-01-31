@@ -4,7 +4,7 @@
     background: none;
 }
 #controls{
-    margin-top: 25px;
+    margin-top: 5px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -16,4 +16,12 @@
     & input{
         width: 100%;
     }
+}
+#time{
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+
 }
