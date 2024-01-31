@@ -1,5 +1,4 @@
 import styles from "./styles.module.css"
-import WavingSVG from "../wavingSVG";
 const One = () => {
   return (
     <div className="container" id="TopContainer">
