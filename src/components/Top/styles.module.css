@@ -1,0 +1,84 @@
+
+#intro{
+    font-size: 1.5rem;
+}
+h1 {
+    margin-bottom: 0;
+}
+#name{
+    display: inline;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 32px;
+    text-align: left;
+    letter-spacing: 0px;
+    background: linear-gradient(270deg, #5065DA 3.28%, #556FFF 21.77%, #C557AD 41.22%, #E65F9A 69.27%, #E66176 98.52%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#hey{
+    color: #FFFFFF;
+    display: inline;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 32px;
+    text-align: left;
+    letter-spacing: 0px;
+}
+#anirudh{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#introNImage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#quote{
+    Opacity : 60%;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 1px;
+}
+#search{
+    background: #202022;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: .8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    border-radius: 3px;
+    padding: 10px 20px;
+    & input{
+        background-color: #202022;
+        border: none;
+        color: white;
+        opacity: .8;
+        height: 100%;
+        flex-grow: 1;
+    }
+    & input:focus{
+        outline: none;
+    }
+    & button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 9px;
+        gap: 2px;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 3px;
+        font-family: 'Sen',sans-serif;
+        background-color: #23ab5c;
+        color: white;
+    }
+}

@@ -1,0 +1,36 @@
+.card{
+    color: white;
+    display: flex;
+    gap: 20px;
+    min-width: 368px;
+    & .name{
+            font-size: 14px;
+            font-weight: 800;
+            line-height: 18px;
+            letter-spacing: 0px;
+            text-align: left;
+    }
+    & .details{
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0px;
+            text-align: left;
+        opacity: .6;
+    }
+}
+.image{
+    background: linear-gradient(270deg, #FF9A8B 0%, #FF6A88 54.59%, #FF99AC 100%);
+    width: 200px;
+    border-radius: 6px;
+    & img{
+        height: 100%;
+        width: 100%;
+    }
+}
+#badge{
+    background-color: #2E3035;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 5px 20px;
+}
